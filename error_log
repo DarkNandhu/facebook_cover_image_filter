@@ -1,0 +1,166 @@
+[07-Feb-2016 12:30:33 UTC] PHP Fatal error:  Uncaught exception 'Facebook\FacebookAuthorizationException' with message 'Error validating access token: Session does not match current stored session. This may be because the user changed the password since the time the session was created or Facebook has changed the session for security reasons.' in /home/viccky/public_html/uddeshah.com/fbstatus/lib/Facebook/FacebookRequestException.php:94
+Stack trace:
+#0 /home/viccky/public_html/uddeshah.com/fbstatus/lib/Facebook/FacebookRequest.php(268): Facebook\FacebookRequestException::create('{"error":{"mess...', Object(stdClass), 400)
+#1 /home/viccky/public_html/uddeshah.com/fbstatus/fblogin1.php(42): Facebook\FacebookRequest->execute()
+#2 {main}
+  thrown in /home/viccky/public_html/uddeshah.com/fbstatus/lib/Facebook/FacebookRequestException.php on line 94
+[07-Feb-2016 12:38:21 UTC] PHP Fatal error:  Uncaught exception 'Facebook\FacebookSDKException' with message 'You must provide or set a default application id.' in /home/viccky/public_html/uddeshah.com/fbstatus/lib/Facebook/FacebookSession.php:320
+Stack trace:
+#0 /home/viccky/public_html/uddeshah.com/fbstatus/lib/Facebook/FacebookRedirectLoginHelper.php(75): Facebook\FacebookSession::_getTargetAppId(NULL)
+#1 /home/viccky/public_html/uddeshah.com/fbstatus/fblogin1.php(59): Facebook\FacebookRedirectLoginHelper->__construct('http://packetco...')
+#2 {main}
+  thrown in /home/viccky/public_html/uddeshah.com/fbstatus/lib/Facebook/FacebookSession.php on line 320
+[07-Feb-2016 12:44:00 UTC] PHP Fatal error:  Uncaught exception 'Facebook\FacebookAuthorizationException' with message 'Error validating verification code. Please make sure your redirect_uri is identical to the one you used in the OAuth dialog request' in /home/viccky/public_html/uddeshah.com/fbstatus/lib/Facebook/FacebookRequestException.php:104
+Stack trace:
+#0 /home/viccky/public_html/uddeshah.com/fbstatus/lib/Facebook/FacebookRequest.php(268): Facebook\FacebookRequestException::create('{"error":{"mess...', Object(stdClass), 400)
+#1 /home/viccky/public_html/uddeshah.com/fbstatus/lib/Facebook/FacebookRedirectLoginHelper.php(146): Facebook\FacebookRequest->execute()
+#2 /home/viccky/public_html/uddeshah.com/fbstatus/fblogin1.php(60): Facebook\FacebookRedirectLoginHelper->getSessionFromRedirect()
+#3 {main}
+  thrown in /home/viccky/public_html/uddeshah.com/fbstatus/lib/Facebook/FacebookRequestException.php on line 104
+[07-Feb-2016 12:45:20 UTC] PHP Fatal error:  Uncaught exception 'Facebook\FacebookAuthorizationException' with message 'Error validating verification code. Please make sure your redirect_uri is identical to the one you used in the OAuth dialog request' in /home/viccky/public_html/uddeshah.com/fbstatus/lib/Facebook/FacebookRequestException.php:104
+Stack trace:
+#0 /home/viccky/public_html/uddeshah.com/fbstatus/lib/Facebook/FacebookRequest.php(268): Facebook\FacebookRequestException::create('{"error":{"mess...', Object(stdClass), 400)
+#1 /home/viccky/public_html/uddeshah.com/fbstatus/lib/Facebook/FacebookRedirectLoginHelper.php(146): Facebook\FacebookRequest->execute()
+#2 /home/viccky/public_html/uddeshah.com/fbstatus/fblogin1.php(60): Facebook\FacebookRedirectLoginHelper->getSessionFromRedirect()
+#3 {main}
+  thrown in /home/viccky/public_html/uddeshah.com/fbstatus/lib/Facebook/FacebookRequestException.php on line 104
+[07-Feb-2016 12:52:57 UTC] PHP Fatal error:  Uncaught exception 'Facebook\FacebookAuthorizationException' with message 'Error validating verification code. Please make sure your redirect_uri is identical to the one you used in the OAuth dialog request' in /home/viccky/public_html/uddeshah.com/fbstatus/lib/Facebook/FacebookRequestException.php:104
+Stack trace:
+#0 /home/viccky/public_html/uddeshah.com/fbstatus/lib/Facebook/FacebookRequest.php(268): Facebook\FacebookRequestException::create('{"error":{"mess...', Object(stdClass), 400)
+#1 /home/viccky/public_html/uddeshah.com/fbstatus/lib/Facebook/FacebookRedirectLoginHelper.php(146): Facebook\FacebookRequest->execute()
+#2 /home/viccky/public_html/uddeshah.com/fbstatus/fblogin1.php(60): Facebook\FacebookRedirectLoginHelper->getSessionFromRedirect()
+#3 {main}
+  thrown in /home/viccky/public_html/uddeshah.com/fbstatus/lib/Facebook/FacebookRequestException.php on line 104
+[07-Feb-2016 13:00:25 UTC] PHP Fatal error:  Uncaught exception 'Facebook\FacebookAuthorizationException' with message 'This authorization code has been used.' in /home/viccky/public_html/uddeshah.com/fbstatus/lib/Facebook/FacebookRequestException.php:104
+Stack trace:
+#0 /home/viccky/public_html/uddeshah.com/fbstatus/lib/Facebook/FacebookRequest.php(268): Facebook\FacebookRequestException::create('{"error":{"mess...', Object(stdClass), 400)
+#1 /home/viccky/public_html/uddeshah.com/fbstatus/lib/Facebook/FacebookRedirectLoginHelper.php(146): Facebook\FacebookRequest->execute()
+#2 /home/viccky/public_html/uddeshah.com/fbstatus/fblogin1.php(60): Facebook\FacebookRedirectLoginHelper->getSessionFromRedirect()
+#3 {main}
+  thrown in /home/viccky/public_html/uddeshah.com/fbstatus/lib/Facebook/FacebookRequestException.php on line 104
+[07-Feb-2016 13:13:26 UTC] PHP Fatal error:  Uncaught exception 'Facebook\FacebookAuthorizationException' with message 'This authorization code has been used.' in /home/viccky/public_html/uddeshah.com/fbstatus/lib/Facebook/FacebookRequestException.php:104
+Stack trace:
+#0 /home/viccky/public_html/uddeshah.com/fbstatus/lib/Facebook/FacebookRequest.php(268): Facebook\FacebookRequestException::create('{"error":{"mess...', Object(stdClass), 400)
+#1 /home/viccky/public_html/uddeshah.com/fbstatus/lib/Facebook/FacebookRedirectLoginHelper.php(146): Facebook\FacebookRequest->execute()
+#2 /home/viccky/public_html/uddeshah.com/fbstatus/fblogin1.php(38): Facebook\FacebookRedirectLoginHelper->getSessionFromRedirect()
+#3 {main}
+  thrown in /home/viccky/public_html/uddeshah.com/fbstatus/lib/Facebook/FacebookRequestException.php on line 104
+[07-Feb-2016 13:17:19 UTC] PHP Fatal error:  Uncaught exception 'Facebook\FacebookAuthorizationException' with message 'Error validating access token: Session does not match current stored session. This may be because the user changed the password since the time the session was created or Facebook has changed the session for security reasons.' in /home/viccky/public_html/uddeshah.com/fbstatus/lib/Facebook/FacebookRequestException.php:94
+Stack trace:
+#0 /home/viccky/public_html/uddeshah.com/fbstatus/lib/Facebook/FacebookRequest.php(268): Facebook\FacebookRequestException::create('{"error":{"mess...', Object(stdClass), 400)
+#1 /home/viccky/public_html/uddeshah.com/fbstatus/fblogin1.php(42): Facebook\FacebookRequest->execute()
+#2 {main}
+  thrown in /home/viccky/public_html/uddeshah.com/fbstatus/lib/Facebook/FacebookRequestException.php on line 94
+[07-Feb-2016 13:27:06 UTC] PHP Fatal error:  Call to a member function getToken() on a non-object in /home/viccky/public_html/uddeshah.com/fbstatus/fblogin1.php on line 39
+[07-Feb-2016 13:31:46 UTC] PHP Fatal error:  Uncaught exception 'Facebook\FacebookAuthorizationException' with message 'Error validating verification code. Please make sure your redirect_uri is identical to the one you used in the OAuth dialog request' in /home/viccky/public_html/uddeshah.com/fbstatus/lib/Facebook/FacebookRequestException.php:104
+Stack trace:
+#0 /home/viccky/public_html/uddeshah.com/fbstatus/lib/Facebook/FacebookRequest.php(268): Facebook\FacebookRequestException::create('{"error":{"mess...', Object(stdClass), 400)
+#1 /home/viccky/public_html/uddeshah.com/fbstatus/lib/Facebook/FacebookRedirectLoginHelper.php(146): Facebook\FacebookRequest->execute()
+#2 /home/viccky/public_html/uddeshah.com/fbstatus/fblogin1.php(35): Facebook\FacebookRedirectLoginHelper->getSessionFromRedirect()
+#3 {main}
+  thrown in /home/viccky/public_html/uddeshah.com/fbstatus/lib/Facebook/FacebookRequestException.php on line 104
+[07-Feb-2016 13:59:45 UTC] PHP Fatal error:  Class 'Date' not found in /home/viccky/public_html/uddeshah.com/fbstatus/fblogin1.php on line 51
+[07-Feb-2016 14:39:53 UTC] PHP Fatal error:  Uncaught exception 'Facebook\Exceptions\FacebookSDKException' with message 'Failed to create FacebookFile entity. Unable to read resource: .' in /home/viccky/public_html/uddeshah.com/fbstatus/fbsdk/src/Facebook/FileUpload/FacebookFile.php:74
+Stack trace:
+#0 /home/viccky/public_html/uddeshah.com/fbstatus/fbsdk/src/Facebook/FileUpload/FacebookFile.php(55): Facebook\FileUpload\FacebookFile->open()
+#1 /home/viccky/public_html/uddeshah.com/fbstatus/fbsdk/src/Facebook/Facebook.php(573): Facebook\FileUpload\FacebookFile->__construct(NULL)
+#2 /home/viccky/public_html/uddeshah.com/fbstatus/photo.php(7): Facebook\Facebook->fileToUpload(NULL)
+#3 {main}
+  thrown in /home/viccky/public_html/uddeshah.com/fbstatus/fbsdk/src/Facebook/FileUpload/FacebookFile.php on line 74
+[07-Feb-2016 14:41:24 UTC] PHP Fatal error:  Uncaught exception 'Facebook\Exceptions\FacebookSDKException' with message 'Failed to create FacebookFile entity. Unable to read resource: .' in /home/viccky/public_html/uddeshah.com/fbstatus/fbsdk/src/Facebook/FileUpload/FacebookFile.php:74
+Stack trace:
+#0 /home/viccky/public_html/uddeshah.com/fbstatus/fbsdk/src/Facebook/FileUpload/FacebookFile.php(55): Facebook\FileUpload\FacebookFile->open()
+#1 /home/viccky/public_html/uddeshah.com/fbstatus/fbsdk/src/Facebook/Facebook.php(573): Facebook\FileUpload\FacebookFile->__construct(NULL)
+#2 /home/viccky/public_html/uddeshah.com/fbstatus/photo.php(7): Facebook\Facebook->fileToUpload(NULL)
+#3 {main}
+  thrown in /home/viccky/public_html/uddeshah.com/fbstatus/fbsdk/src/Facebook/FileUpload/FacebookFile.php on line 74
+[07-Feb-2016 14:42:31 UTC] PHP Fatal error:  Uncaught exception 'Facebook\Exceptions\FacebookSDKException' with message 'Failed to create FacebookFile entity. Unable to read resource: .' in /home/viccky/public_html/uddeshah.com/fbstatus/fbsdk/src/Facebook/FileUpload/FacebookFile.php:74
+Stack trace:
+#0 /home/viccky/public_html/uddeshah.com/fbstatus/fbsdk/src/Facebook/FileUpload/FacebookFile.php(55): Facebook\FileUpload\FacebookFile->open()
+#1 /home/viccky/public_html/uddeshah.com/fbstatus/fbsdk/src/Facebook/Facebook.php(573): Facebook\FileUpload\FacebookFile->__construct(NULL)
+#2 /home/viccky/public_html/uddeshah.com/fbstatus/photo.php(7): Facebook\Facebook->fileToUpload(NULL)
+#3 {main}
+  thrown in /home/viccky/public_html/uddeshah.com/fbstatus/fbsdk/src/Facebook/FileUpload/FacebookFile.php on line 74
+[07-Feb-2016 14:43:18 UTC] PHP Fatal error:  Uncaught exception 'Facebook\Exceptions\FacebookSDKException' with message 'Failed to create FacebookFile entity. Unable to read resource: .' in /home/viccky/public_html/uddeshah.com/fbstatus/fbsdk/src/Facebook/FileUpload/FacebookFile.php:74
+Stack trace:
+#0 /home/viccky/public_html/uddeshah.com/fbstatus/fbsdk/src/Facebook/FileUpload/FacebookFile.php(55): Facebook\FileUpload\FacebookFile->open()
+#1 /home/viccky/public_html/uddeshah.com/fbstatus/fbsdk/src/Facebook/Facebook.php(573): Facebook\FileUpload\FacebookFile->__construct(NULL)
+#2 /home/viccky/public_html/uddeshah.com/fbstatus/photo.php(7): Facebook\Facebook->fileToUpload(NULL)
+#3 {main}
+  thrown in /home/viccky/public_html/uddeshah.com/fbstatus/fbsdk/src/Facebook/FileUpload/FacebookFile.php on line 74
+[07-Feb-2016 14:45:41 UTC] PHP Fatal error:  Uncaught exception 'Facebook\Exceptions\FacebookSDKException' with message 'Failed to create FacebookFile entity. Unable to read resource: .' in /home/viccky/public_html/uddeshah.com/fbstatus/fbsdk/src/Facebook/FileUpload/FacebookFile.php:74
+Stack trace:
+#0 /home/viccky/public_html/uddeshah.com/fbstatus/fbsdk/src/Facebook/FileUpload/FacebookFile.php(55): Facebook\FileUpload\FacebookFile->open()
+#1 /home/viccky/public_html/uddeshah.com/fbstatus/fbsdk/src/Facebook/Facebook.php(573): Facebook\FileUpload\FacebookFile->__construct('')
+#2 /home/viccky/public_html/uddeshah.com/fbstatus/photo.php(7): Facebook\Facebook->fileToUpload('')
+#3 {main}
+  thrown in /home/viccky/public_html/uddeshah.com/fbstatus/fbsdk/src/Facebook/FileUpload/FacebookFile.php on line 74
+[07-Feb-2016 14:47:22 UTC] PHP Fatal error:  Uncaught exception 'Facebook\Exceptions\FacebookAuthenticationException' with message 'An active access token must be used to query information about the current user.' in /home/viccky/public_html/uddeshah.com/fbstatus/fbsdk/src/Facebook/Exceptions/FacebookResponseException.php:125
+Stack trace:
+#0 /home/viccky/public_html/uddeshah.com/fbstatus/fbsdk/src/Facebook/FacebookResponse.php(210): Facebook\Exceptions\FacebookResponseException::create(Object(Facebook\FacebookResponse))
+#1 /home/viccky/public_html/uddeshah.com/fbstatus/fbsdk/src/Facebook/FacebookResponse.php(255): Facebook\FacebookResponse->makeException()
+#2 /home/viccky/public_html/uddeshah.com/fbstatus/fbsdk/src/Facebook/FacebookResponse.php(82): Facebook\FacebookResponse->decodeBody()
+#3 /home/viccky/public_html/uddeshah.com/fbstatus/fbsdk/src/Facebook/FacebookClient.php(225): Facebook\FacebookResponse->__construct(Object(Facebook\FacebookRequest), '{"error":{"mess...', 400, Array)
+#4 /home/viccky/public_html/uddeshah.com/fbstatus/fbsdk/src/Facebook in /home/viccky/public_html/uddeshah.com/fbstatus/fbsdk/src/Facebook/Exceptions/FacebookResponseException.php on line 125
+[07-Feb-2016 15:11:43 UTC] PHP Fatal error:  Uncaught exception 'Facebook\FacebookAuthorizationException' with message 'Error validating access token: The user has not authorized application 1672753366315837.' in /home/viccky/public_html/uddeshah.com/fbstatus/lib/Facebook/FacebookRequestException.php:94
+Stack trace:
+#0 /home/viccky/public_html/uddeshah.com/fbstatus/lib/Facebook/FacebookRequest.php(268): Facebook\FacebookRequestException::create('{"error":{"mess...', Object(stdClass), 400)
+#1 /home/viccky/public_html/uddeshah.com/fbstatus/fblogin1.php(45): Facebook\FacebookRequest->execute()
+#2 {main}
+  thrown in /home/viccky/public_html/uddeshah.com/fbstatus/lib/Facebook/FacebookRequestException.php on line 94
+[08-Feb-2016 16:03:50 UTC] PHP Fatal error:  Uncaught exception 'Facebook\FacebookAuthorizationException' with message 'This authorization code has been used.' in /home/viccky/public_html/uddeshah.com/fbstatus/lib/Facebook/FacebookRequestException.php:104
+Stack trace:
+#0 /home/viccky/public_html/uddeshah.com/fbstatus/lib/Facebook/FacebookRequest.php(268): Facebook\FacebookRequestException::create('{"error":{"mess...', Object(stdClass), 400)
+#1 /home/viccky/public_html/uddeshah.com/fbstatus/lib/Facebook/FacebookRedirectLoginHelper.php(146): Facebook\FacebookRequest->execute()
+#2 /home/viccky/public_html/uddeshah.com/fbstatus/fblogin1.php(38): Facebook\FacebookRedirectLoginHelper->getSessionFromRedirect()
+#3 {main}
+  thrown in /home/viccky/public_html/uddeshah.com/fbstatus/lib/Facebook/FacebookRequestException.php on line 104
+[05-Sep-2016 13:45:10 UTC] PHP Fatal error:  Uncaught exception 'Facebook\FacebookAuthorizationException' with message 'This authorization code has been used.' in /home/viccky/public_html/uddeshah.com/fbstatus/lib/Facebook/FacebookRequestException.php:104
+Stack trace:
+#0 /home/viccky/public_html/uddeshah.com/fbstatus/lib/Facebook/FacebookRequest.php(268): Facebook\FacebookRequestException::create('{"error":{"mess...', Object(stdClass), 400)
+#1 /home/viccky/public_html/uddeshah.com/fbstatus/lib/Facebook/FacebookRedirectLoginHelper.php(146): Facebook\FacebookRequest->execute()
+#2 /home/viccky/public_html/uddeshah.com/fbstatus/fblogin1.php(38): Facebook\FacebookRedirectLoginHelper->getSessionFromRedirect()
+#3 {main}
+  thrown in /home/viccky/public_html/uddeshah.com/fbstatus/lib/Facebook/FacebookRequestException.php on line 104
+[05-Sep-2016 16:21:55 UTC] PHP Fatal error:  Uncaught exception 'Facebook\FacebookSDKException' with message 'Connection timed out after 10000 milliseconds' in /home/viccky/public_html/uddeshah.com/fbstatus/lib/Facebook/HttpClients/FacebookCurlHttpClient.php:142
+Stack trace:
+#0 /home/viccky/public_html/uddeshah.com/fbstatus/lib/Facebook/FacebookRequest.php(248): Facebook\HttpClients\FacebookCurlHttpClient->send('https://graph.f...', 'GET', Array)
+#1 /home/viccky/public_html/uddeshah.com/fbstatus/lib/Facebook/FacebookRedirectLoginHelper.php(146): Facebook\FacebookRequest->execute()
+#2 /home/viccky/public_html/uddeshah.com/fbstatus/fblogin1.php(38): Facebook\FacebookRedirectLoginHelper->getSessionFromRedirect()
+#3 {main}
+  thrown in /home/viccky/public_html/uddeshah.com/fbstatus/lib/Facebook/HttpClients/FacebookCurlHttpClient.php on line 142
+[05-Sep-2016 17:01:13 UTC] PHP Fatal error:  Uncaught exception 'Facebook\FacebookAuthorizationException' with message 'This authorization code has been used.' in /home/viccky/public_html/uddeshah.com/fbstatus/lib/Facebook/FacebookRequestException.php:104
+Stack trace:
+#0 /home/viccky/public_html/uddeshah.com/fbstatus/lib/Facebook/FacebookRequest.php(268): Facebook\FacebookRequestException::create('{"error":{"mess...', Object(stdClass), 400)
+#1 /home/viccky/public_html/uddeshah.com/fbstatus/lib/Facebook/FacebookRedirectLoginHelper.php(146): Facebook\FacebookRequest->execute()
+#2 /home/viccky/public_html/uddeshah.com/fbstatus/fblogin1.php(38): Facebook\FacebookRedirectLoginHelper->getSessionFromRedirect()
+#3 {main}
+  thrown in /home/viccky/public_html/uddeshah.com/fbstatus/lib/Facebook/FacebookRequestException.php on line 104
+[09-Sep-2016 14:25:29 UTC] PHP Fatal error:  Uncaught exception 'Facebook\FacebookAuthorizationException' with message 'This authorization code has been used.' in /home/viccky/public_html/uddeshah.com/fbstatus/lib/Facebook/FacebookRequestException.php:104
+Stack trace:
+#0 /home/viccky/public_html/uddeshah.com/fbstatus/lib/Facebook/FacebookRequest.php(268): Facebook\FacebookRequestException::create('{"error":{"mess...', Object(stdClass), 400)
+#1 /home/viccky/public_html/uddeshah.com/fbstatus/lib/Facebook/FacebookRedirectLoginHelper.php(146): Facebook\FacebookRequest->execute()
+#2 /home/viccky/public_html/uddeshah.com/fbstatus/fblogin1.php(38): Facebook\FacebookRedirectLoginHelper->getSessionFromRedirect()
+#3 {main}
+  thrown in /home/viccky/public_html/uddeshah.com/fbstatus/lib/Facebook/FacebookRequestException.php on line 104
+[10-Sep-2016 11:08:46 UTC] PHP Fatal error:  Uncaught exception 'Facebook\Exceptions\FacebookAuthorizationException' with message '(#200) Requires extended permission: publish_actions' in /home/viccky/public_html/uddeshah.com/fbstatus/fbsdk/src/Facebook/Exceptions/FacebookResponseException.php:120
+Stack trace:
+#0 /home/viccky/public_html/uddeshah.com/fbstatus/fbsdk/src/Facebook/FacebookResponse.php(210): Facebook\Exceptions\FacebookResponseException::create(Object(Facebook\FacebookResponse))
+#1 /home/viccky/public_html/uddeshah.com/fbstatus/fbsdk/src/Facebook/FacebookResponse.php(255): Facebook\FacebookResponse->makeException()
+#2 /home/viccky/public_html/uddeshah.com/fbstatus/fbsdk/src/Facebook/FacebookResponse.php(82): Facebook\FacebookResponse->decodeBody()
+#3 /home/viccky/public_html/uddeshah.com/fbstatus/fbsdk/src/Facebook/FacebookClient.php(225): Facebook\FacebookResponse->__construct(Object(Facebook\FacebookRequest), '{"error":{"mess...', 403, Array)
+#4 /home/viccky/public_html/uddeshah.com/fbstatus/fbsdk/src/Facebook/Facebook.php(504): Facebook\ in /home/viccky/public_html/uddeshah.com/fbstatus/fbsdk/src/Facebook/Exceptions/FacebookResponseException.php on line 120
+[30-Sep-2016 15:00:26 UTC] PHP Fatal error:  Uncaught exception 'Facebook\Exceptions\FacebookAuthorizationException' with message '(#200) Requires extended permission: publish_actions' in /home/viccky/public_html/uddeshah.com/fbstatus/fbsdk/src/Facebook/Exceptions/FacebookResponseException.php:120
+Stack trace:
+#0 /home/viccky/public_html/uddeshah.com/fbstatus/fbsdk/src/Facebook/FacebookResponse.php(210): Facebook\Exceptions\FacebookResponseException::create(Object(Facebook\FacebookResponse))
+#1 /home/viccky/public_html/uddeshah.com/fbstatus/fbsdk/src/Facebook/FacebookResponse.php(255): Facebook\FacebookResponse->makeException()
+#2 /home/viccky/public_html/uddeshah.com/fbstatus/fbsdk/src/Facebook/FacebookResponse.php(82): Facebook\FacebookResponse->decodeBody()
+#3 /home/viccky/public_html/uddeshah.com/fbstatus/fbsdk/src/Facebook/FacebookClient.php(225): Facebook\FacebookResponse->__construct(Object(Facebook\FacebookRequest), '{"error":{"mess...', 403, Array)
+#4 /home/viccky/public_html/uddeshah.com/fbstatus/fbsdk/src/Facebook/Facebook.php(504): Facebook\ in /home/viccky/public_html/uddeshah.com/fbstatus/fbsdk/src/Facebook/Exceptions/FacebookResponseException.php on line 120
+[08-Jan-2017 13:43:55 UTC] PHP Fatal error:  Uncaught exception 'Facebook\Exceptions\FacebookAuthorizationException' with message '(#200) Requires extended permission: publish_actions' in /home/viccky/public_html/uddeshah.com/fbstatus/fbsdk/src/Facebook/Exceptions/FacebookResponseException.php:120
+Stack trace:
+#0 /home/viccky/public_html/uddeshah.com/fbstatus/fbsdk/src/Facebook/FacebookResponse.php(210): Facebook\Exceptions\FacebookResponseException::create(Object(Facebook\FacebookResponse))
+#1 /home/viccky/public_html/uddeshah.com/fbstatus/fbsdk/src/Facebook/FacebookResponse.php(255): Facebook\FacebookResponse->makeException()
+#2 /home/viccky/public_html/uddeshah.com/fbstatus/fbsdk/src/Facebook/FacebookResponse.php(82): Facebook\FacebookResponse->decodeBody()
+#3 /home/viccky/public_html/uddeshah.com/fbstatus/fbsdk/src/Facebook/FacebookClient.php(225): Facebook\FacebookResponse->__construct(Object(Facebook\FacebookRequest), '{"error":{"mess...', 403, Array)
+#4 /home/viccky/public_html/uddeshah.com/fbstatus/fbsdk/src/Facebook/Facebook.php(504): Facebook\ in /home/viccky/public_html/uddeshah.com/fbstatus/fbsdk/src/Facebook/Exceptions/FacebookResponseException.php on line 120

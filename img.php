@@ -1,0 +1,24 @@
+<?php
+//header('content-type:image/jpeg');
+if(isset($_GET['source'])){
+$source="img/".$_GET['source'].'.png';
+$image=imagecreatetruecolor(600,600);
+$image=imagecreatefrompng($source);
+$image_size=getimagesize($source);
+$watermark=imagecreatetruecolor($image_size[0],$image_size[1]);
+imagealphablending($watermark,false);
+imagesavealpha($watermark,true);
+$water=imagecreatefrompng('udde2.png');
+imagecopyresampled($watermark,$water,0,0,0,0,$image_size[0],$image_size[1],600,600);
+$watermark_height=$image_size[1];
+$watermark_width=$image_size[0];
+$y=$image_size[1]-$watermark_height;
+$x=$image_size[0]-$watermark_width;
+//$image=imagecreatetruecolor($watermark_width,$watermark_height;
+imagecopy($image,$watermark,$x,$y,0,0,$watermark_width,$watermark_height);
+imagepng($image,'img/'.$_GET['source'].'.png');
+header('location:http://www.uddeshah.com/fbstatus/index1.php?source='.$_GET['source']);
+}else{
+echo 'no Image';
+}
+?>
